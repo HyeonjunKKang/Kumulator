@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036B45EE57A5BE0AC5C25B22 /* Pods_kumulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66C80B6F176DBA290E4DE662 /* Pods_kumulator.framework */; };
+		FA0DE22F289CE18E0034E1A6 /* LiberalArtsStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0DE22E289CE18D0034E1A6 /* LiberalArtsStruct.swift */; };
+		FA0E8D3028C3384700B1BD03 /* UndergraduateMajorSubjectInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E8D2F28C3384700B1BD03 /* UndergraduateMajorSubjectInputViewController.swift */; };
+		FA41CCCE288669BF00AC6CAF /* SelectCourseHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41CCCD288669BF00AC6CAF /* SelectCourseHistoryViewController.swift */; };
+		FA430EF7287EA7E4007A5FCB /* InsertUserDataVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA430EF6287EA7E4007A5FCB /* InsertUserDataVIewController.swift */; };
+		FA48D30B2813D31A00A5CFBC /* Userstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48D30A2813D31A00A5CFBC /* Userstruct.swift */; };
+		FA59D59028C0A61400694DDD /* MajorSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59D58F28C0A61300694DDD /* MajorSubjectView.swift */; };
+		FA59D59228C0A68900694DDD /* CompulsoryMajorSubjectInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59D59128C0A68800694DDD /* CompulsoryMajorSubjectInputViewController.swift */; };
+		FA59D59428C0A71D00694DDD /* ElectiveMajorSubjectInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59D59328C0A71D00694DDD /* ElectiveMajorSubjectInputViewController.swift */; };
+		FA747C97289BABD0008AB201 /* CompulsoryLiberalArtSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA747C96289BABD0008AB201 /* CompulsoryLiberalArtSelectViewController.swift */; };
+		FA747C99289BAC37008AB201 /* CompulsoryLiberalArtDetailInputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA747C98289BAC37008AB201 /* CompulsoryLiberalArtDetailInputTableViewController.swift */; };
+		FA85923328E2D5F800CED8EA /* GraduationLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85923228E2D5F800CED8EA /* GraduationLanguageViewController.swift */; };
+		FA85923528E6AABF00CED8EA /* GraduationWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA85923428E6AABF00CED8EA /* GraduationWorkViewController.swift */; };
+		FA8CF68F288FB4D800356539 /* SubjectStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8CF68E288FB4D800356539 /* SubjectStruct.swift */; };
+		FA9A64D627F19CC3002A5652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A64D527F19CC3002A5652 /* AppDelegate.swift */; };
+		FA9A64D827F19CC3002A5652 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A64D727F19CC3002A5652 /* SceneDelegate.swift */; };
+		FA9A64DA27F19CC3002A5652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9A64D927F19CC3002A5652 /* ViewController.swift */; };
+		FA9A64DD27F19CC3002A5652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9A64DB27F19CC3002A5652 /* Main.storyboard */; };
+		FA9A64DF27F19CC5002A5652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9A64DE27F19CC5002A5652 /* Assets.xcassets */; };
+		FA9A64E227F19CC5002A5652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9A64E027F19CC5002A5652 /* LaunchScreen.storyboard */; };
+		FAA4AAA02887C1E900D2ECF4 /* SelectYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4AA9F2887C1E900D2ECF4 /* SelectYearViewController.swift */; };
+		FAA4AAA22889101600D2ECF4 /* YearAndSemesterStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4AAA12889101600D2ECF4 /* YearAndSemesterStruct.swift */; };
+		FAD5FE7328C4A05A00145C0C /* KUKnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD5FE7228C4A05A00145C0C /* KUKnowledgeViewController.swift */; };
+		FAD8829128C496250089BF62 /* DepthLiberalInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD8829028C496250089BF62 /* DepthLiberalInputViewController.swift */; };
+		FAE142E728990C150014689E /* CourseHistoryCreditStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE142E628990C150014689E /* CourseHistoryCreditStruct.swift */; };
+		FAE1C1EE288A6D760093A2B6 /* CourseDataInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1C1ED288A6D750093A2B6 /* CourseDataInputViewController.swift */; };
+		FAEFA15F28C47C3600E6FF64 /* LiberalKUPersonalityInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFA15E28C47C3600E6FF64 /* LiberalKUPersonalityInputViewController.swift */; };
+		FAEFA16128C47C6100E6FF64 /* LiberalWritingInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFA16028C47C6100E6FF64 /* LiberalWritingInputViewController.swift */; };
+		FAEFA16328C47C7000E6FF64 /* LiberalDiscussionInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFA16228C47C7000E6FF64 /* LiberalDiscussionInputViewController.swift */; };
+		FAEFA16528C47C9200E6FF64 /* LiberalBasicForeignInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFA16428C47C9200E6FF64 /* LiberalBasicForeignInputViewController.swift */; };
+		FAEFA16728C47CA400E6FF64 /* LiberalBasicHumanitiesInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFA16628C47CA400E6FF64 /* LiberalBasicHumanitiesInputViewController.swift */; };
+		FAEFA16928C47CB200E6FF64 /* LiberalBasicScienceInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEFA16828C47CB200E6FF64 /* LiberalBasicScienceInputViewController.swift */; };
+		FAF0613827F402F000A4B553 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0613727F402F000A4B553 /* JoinViewController.swift */; };
+		FAF0613A27F4061400A4B553 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0613927F4061400A4B553 /* MainViewController.swift */; };
+		FAF0613C27F4092000A4B553 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAF0613B27F4092000A4B553 /* GoogleService-Info.plist */; };
+		FAF657CC28C4A1F60042F322 /* PracticalKnowledgeInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF657CB28C4A1F60042F322 /* PracticalKnowledgeInputViewController.swift */; };
+		FAF657CE28C4A20F0042F322 /* PracticalSkillInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF657CD28C4A20F0042F322 /* PracticalSkillInputViewController.swift */; };
+		FAFA75D728C4778D0052891E /* BasicLiberalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA75D628C4778D0052891E /* BasicLiberalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66C80B6F176DBA290E4DE662 /* Pods_kumulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kumulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DA11E68A18C556DCBBE2BD /* Pods-kumulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kumulator.release.xcconfig"; path = "Target Support Files/Pods-kumulator/Pods-kumulator.release.xcconfig"; sourceTree = "<group>"; };
+		FA0DE22E289CE18D0034E1A6 /* LiberalArtsStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberalArtsStruct.swift; sourceTree = "<group>"; };
+		FA0E8D2F28C3384700B1BD03 /* UndergraduateMajorSubjectInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndergraduateMajorSubjectInputViewController.swift; sourceTree = "<group>"; };
+		FA41CCCD288669BF00AC6CAF /* SelectCourseHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCourseHistoryViewController.swift; sourceTree = "<group>"; };
+		FA430EF6287EA7E4007A5FCB /* InsertUserDataVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertUserDataVIewController.swift; sourceTree = "<group>"; };
+		FA48D30A2813D31A00A5CFBC /* Userstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Userstruct.swift; path = ../../../Userstruct.swift; sourceTree = "<group>"; };
+		FA59D58F28C0A61300694DDD /* MajorSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorSubjectView.swift; sourceTree = "<group>"; };
+		FA59D59128C0A68800694DDD /* CompulsoryMajorSubjectInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompulsoryMajorSubjectInputViewController.swift; sourceTree = "<group>"; };
+		FA59D59328C0A71D00694DDD /* ElectiveMajorSubjectInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectiveMajorSubjectInputViewController.swift; sourceTree = "<group>"; };
+		FA747C96289BABD0008AB201 /* CompulsoryLiberalArtSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompulsoryLiberalArtSelectViewController.swift; sourceTree = "<group>"; };
+		FA747C98289BAC37008AB201 /* CompulsoryLiberalArtDetailInputTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompulsoryLiberalArtDetailInputTableViewController.swift; sourceTree = "<group>"; };
+		FA85923228E2D5F800CED8EA /* GraduationLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduationLanguageViewController.swift; sourceTree = "<group>"; };
+		FA85923428E6AABF00CED8EA /* GraduationWorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduationWorkViewController.swift; sourceTree = "<group>"; };
+		FA8CF68E288FB4D800356539 /* SubjectStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectStruct.swift; sourceTree = "<group>"; };
+		FA9A64D227F19CC3002A5652 /* kumulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kumulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9A64D527F19CC3002A5652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA9A64D727F19CC3002A5652 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA9A64D927F19CC3002A5652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA9A64DC27F19CC3002A5652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA9A64DE27F19CC5002A5652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA9A64E127F19CC5002A5652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA9A64E327F19CC5002A5652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA4AA9F2887C1E900D2ECF4 /* SelectYearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectYearViewController.swift; sourceTree = "<group>"; };
+		FAA4AAA12889101600D2ECF4 /* YearAndSemesterStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearAndSemesterStruct.swift; sourceTree = "<group>"; };
+		FAD5FE7228C4A05A00145C0C /* KUKnowledgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUKnowledgeViewController.swift; sourceTree = "<group>"; };
+		FAD8829028C496250089BF62 /* DepthLiberalInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthLiberalInputViewController.swift; sourceTree = "<group>"; };
+		FAE142E628990C150014689E /* CourseHistoryCreditStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseHistoryCreditStruct.swift; sourceTree = "<group>"; };
+		FAE1C1ED288A6D750093A2B6 /* CourseDataInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDataInputViewController.swift; sourceTree = "<group>"; };
+		FAEFA15E28C47C3600E6FF64 /* LiberalKUPersonalityInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberalKUPersonalityInputViewController.swift; sourceTree = "<group>"; };
+		FAEFA16028C47C6100E6FF64 /* LiberalWritingInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberalWritingInputViewController.swift; sourceTree = "<group>"; };
+		FAEFA16228C47C7000E6FF64 /* LiberalDiscussionInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberalDiscussionInputViewController.swift; sourceTree = "<group>"; };
+		FAEFA16428C47C9200E6FF64 /* LiberalBasicForeignInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberalBasicForeignInputViewController.swift; sourceTree = "<group>"; };
+		FAEFA16628C47CA400E6FF64 /* LiberalBasicHumanitiesInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberalBasicHumanitiesInputViewController.swift; sourceTree = "<group>"; };
+		FAEFA16828C47CB200E6FF64 /* LiberalBasicScienceInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiberalBasicScienceInputViewController.swift; sourceTree = "<group>"; };
+		FAF0613727F402F000A4B553 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		FAF0613927F4061400A4B553 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FAF0613B27F4092000A4B553 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FAF657CB28C4A1F60042F322 /* PracticalKnowledgeInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticalKnowledgeInputViewController.swift; sourceTree = "<group>"; };
+		FAF657CD28C4A20F0042F322 /* PracticalSkillInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticalSkillInputViewController.swift; sourceTree = "<group>"; };
+		FAFA75D628C4778D0052891E /* BasicLiberalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLiberalViewController.swift; sourceTree = "<group>"; };
+		FD94165F4B59CB3964A9139C /* Pods-kumulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kumulator.debug.xcconfig"; path = "Target Support Files/Pods-kumulator/Pods-kumulator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9A64CF27F19CC3002A5652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036B45EE57A5BE0AC5C25B22 /* Pods_kumulator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34AAF768FA40E34A290AA1D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD94165F4B59CB3964A9139C /* Pods-kumulator.debug.xcconfig */,
+				74DA11E68A18C556DCBBE2BD /* Pods-kumulator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E0628BB7B913826DAABF96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66C80B6F176DBA290E4DE662 /* Pods_kumulator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA9A64C927F19CC3002A5652 = {
+			isa = PBXGroup;
+			children = (
+				FA9A64D427F19CC3002A5652 /* kumulator */,
+				FA9A64D327F19CC3002A5652 /* Products */,
+				34AAF768FA40E34A290AA1D6 /* Pods */,
+				7E0628BB7B913826DAABF96F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9A64D327F19CC3002A5652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9A64D227F19CC3002A5652 /* kumulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9A64D427F19CC3002A5652 /* kumulator */ = {
+			isa = PBXGroup;
+			children = (
+				FA9A64D527F19CC3002A5652 /* AppDelegate.swift */,
+				FA9A64D727F19CC3002A5652 /* SceneDelegate.swift */,
+				FA9A64D927F19CC3002A5652 /* ViewController.swift */,
+				FA9A64DB27F19CC3002A5652 /* Main.storyboard */,
+				FA85923428E6AABF00CED8EA /* GraduationWorkViewController.swift */,
+				FA85923228E2D5F800CED8EA /* GraduationLanguageViewController.swift */,
+				FAE142E628990C150014689E /* CourseHistoryCreditStruct.swift */,
+				FAF0613927F4061400A4B553 /* MainViewController.swift */,
+				FA59D58F28C0A61300694DDD /* MajorSubjectView.swift */,
+				FA59D59128C0A68800694DDD /* CompulsoryMajorSubjectInputViewController.swift */,
+				FA59D59328C0A71D00694DDD /* ElectiveMajorSubjectInputViewController.swift */,
+				FA0E8D2F28C3384700B1BD03 /* UndergraduateMajorSubjectInputViewController.swift */,
+				FAFA75D628C4778D0052891E /* BasicLiberalViewController.swift */,
+				FAEFA15E28C47C3600E6FF64 /* LiberalKUPersonalityInputViewController.swift */,
+				FAEFA16028C47C6100E6FF64 /* LiberalWritingInputViewController.swift */,
+				FAEFA16228C47C7000E6FF64 /* LiberalDiscussionInputViewController.swift */,
+				FAEFA16428C47C9200E6FF64 /* LiberalBasicForeignInputViewController.swift */,
+				FAEFA16628C47CA400E6FF64 /* LiberalBasicHumanitiesInputViewController.swift */,
+				FAEFA16828C47CB200E6FF64 /* LiberalBasicScienceInputViewController.swift */,
+				FAD8829028C496250089BF62 /* DepthLiberalInputViewController.swift */,
+				FAD5FE7228C4A05A00145C0C /* KUKnowledgeViewController.swift */,
+				FAF657CB28C4A1F60042F322 /* PracticalKnowledgeInputViewController.swift */,
+				FAF657CD28C4A20F0042F322 /* PracticalSkillInputViewController.swift */,
+				FA48D30A2813D31A00A5CFBC /* Userstruct.swift */,
+				FAF0613727F402F000A4B553 /* JoinViewController.swift */,
+				FA8CF68E288FB4D800356539 /* SubjectStruct.swift */,
+				FAA4AAA12889101600D2ECF4 /* YearAndSemesterStruct.swift */,
+				FA0DE22E289CE18D0034E1A6 /* LiberalArtsStruct.swift */,
+				FA41CCCD288669BF00AC6CAF /* SelectCourseHistoryViewController.swift */,
+				FAA4AA9F2887C1E900D2ECF4 /* SelectYearViewController.swift */,
+				FAE1C1ED288A6D750093A2B6 /* CourseDataInputViewController.swift */,
+				FA430EF6287EA7E4007A5FCB /* InsertUserDataVIewController.swift */,
+				FA747C96289BABD0008AB201 /* CompulsoryLiberalArtSelectViewController.swift */,
+				FA747C98289BAC37008AB201 /* CompulsoryLiberalArtDetailInputTableViewController.swift */,
+				FA9A64DE27F19CC5002A5652 /* Assets.xcassets */,
+				FA9A64E027F19CC5002A5652 /* LaunchScreen.storyboard */,
+				FA9A64E327F19CC5002A5652 /* Info.plist */,
+				FAF0613B27F4092000A4B553 /* GoogleService-Info.plist */,
+			);
+			path = kumulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9A64D127F19CC3002A5652 /* kumulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9A64E627F19CC5002A5652 /* Build configuration list for PBXNativeTarget "kumulator" */;
+			buildPhases = (
+				D749FA5CE499C4CD252790EF /* [CP] Check Pods Manifest.lock */,
+				FA9A64CE27F19CC3002A5652 /* Sources */,
+				FA9A64CF27F19CC3002A5652 /* Frameworks */,
+				FA9A64D027F19CC3002A5652 /* Resources */,
+				C2B90E8BB8C143682B907FA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kumulator;
+			productName = kumulator;
+			productReference = FA9A64D227F19CC3002A5652 /* kumulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9A64CA27F19CC3002A5652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FA9A64D127F19CC3002A5652 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FA9A64CD27F19CC3002A5652 /* Build configuration list for PBXProject "kumulator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA9A64C927F19CC3002A5652;
+			productRefGroup = FA9A64D327F19CC3002A5652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9A64D127F19CC3002A5652 /* kumulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9A64D027F19CC3002A5652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9A64E227F19CC5002A5652 /* LaunchScreen.storyboard in Resources */,
+				FAF0613C27F4092000A4B553 /* GoogleService-Info.plist in Resources */,
+				FA9A64DF27F19CC5002A5652 /* Assets.xcassets in Resources */,
+				FA9A64DD27F19CC3002A5652 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C2B90E8BB8C143682B907FA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kumulator/Pods-kumulator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kumulator/Pods-kumulator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kumulator/Pods-kumulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D749FA5CE499C4CD252790EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kumulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9A64CE27F19CC3002A5652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5FE7328C4A05A00145C0C /* KUKnowledgeViewController.swift in Sources */,
+				FA9A64DA27F19CC3002A5652 /* ViewController.swift in Sources */,
+				FAEFA16728C47CA400E6FF64 /* LiberalBasicHumanitiesInputViewController.swift in Sources */,
+				FAE1C1EE288A6D760093A2B6 /* CourseDataInputViewController.swift in Sources */,
+				FAE142E728990C150014689E /* CourseHistoryCreditStruct.swift in Sources */,
+				FAFA75D728C4778D0052891E /* BasicLiberalViewController.swift in Sources */,
+				FA9A64D627F19CC3002A5652 /* AppDelegate.swift in Sources */,
+				FAEFA16528C47C9200E6FF64 /* LiberalBasicForeignInputViewController.swift in Sources */,
+				FA8CF68F288FB4D800356539 /* SubjectStruct.swift in Sources */,
+				FA430EF7287EA7E4007A5FCB /* InsertUserDataVIewController.swift in Sources */,
+				FA747C99289BAC37008AB201 /* CompulsoryLiberalArtDetailInputTableViewController.swift in Sources */,
+				FAF0613827F402F000A4B553 /* JoinViewController.swift in Sources */,
+				FA0E8D3028C3384700B1BD03 /* UndergraduateMajorSubjectInputViewController.swift in Sources */,
+				FAA4AAA22889101600D2ECF4 /* YearAndSemesterStruct.swift in Sources */,
+				FAF657CE28C4A20F0042F322 /* PracticalSkillInputViewController.swift in Sources */,
+				FA0DE22F289CE18E0034E1A6 /* LiberalArtsStruct.swift in Sources */,
+				FA59D59428C0A71D00694DDD /* ElectiveMajorSubjectInputViewController.swift in Sources */,
+				FA41CCCE288669BF00AC6CAF /* SelectCourseHistoryViewController.swift in Sources */,
+				FA85923328E2D5F800CED8EA /* GraduationLanguageViewController.swift in Sources */,
+				FA85923528E6AABF00CED8EA /* GraduationWorkViewController.swift in Sources */,
+				FAEFA16128C47C6100E6FF64 /* LiberalWritingInputViewController.swift in Sources */,
+				FAEFA15F28C47C3600E6FF64 /* LiberalKUPersonalityInputViewController.swift in Sources */,
+				FAA4AAA02887C1E900D2ECF4 /* SelectYearViewController.swift in Sources */,
+				FA9A64D827F19CC3002A5652 /* SceneDelegate.swift in Sources */,
+				FA59D59228C0A68900694DDD /* CompulsoryMajorSubjectInputViewController.swift in Sources */,
+				FAEFA16328C47C7000E6FF64 /* LiberalDiscussionInputViewController.swift in Sources */,
+				FAF0613A27F4061400A4B553 /* MainViewController.swift in Sources */,
+				FAEFA16928C47CB200E6FF64 /* LiberalBasicScienceInputViewController.swift in Sources */,
+				FA48D30B2813D31A00A5CFBC /* Userstruct.swift in Sources */,
+				FA59D59028C0A61400694DDD /* MajorSubjectView.swift in Sources */,
+				FA747C97289BABD0008AB201 /* CompulsoryLiberalArtSelectViewController.swift in Sources */,
+				FAF657CC28C4A1F60042F322 /* PracticalKnowledgeInputViewController.swift in Sources */,
+				FAD8829128C496250089BF62 /* DepthLiberalInputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA9A64DB27F19CC3002A5652 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9A64DC27F19CC3002A5652 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA9A64E027F19CC5002A5652 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9A64E127F19CC5002A5652 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9A64E427F19CC5002A5652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA9A64E527F19CC5002A5652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9A64E727F19CC5002A5652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD94165F4B59CB3964A9139C /* Pods-kumulator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3X4LNN773;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kumulator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clamp.kumulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA9A64E827F19CC5002A5652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DA11E68A18C556DCBBE2BD /* Pods-kumulator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3X4LNN773;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kumulator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clamp.kumulator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9A64CD27F19CC3002A5652 /* Build configuration list for PBXProject "kumulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9A64E427F19CC5002A5652 /* Debug */,
+				FA9A64E527F19CC5002A5652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9A64E627F19CC5002A5652 /* Build configuration list for PBXNativeTarget "kumulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9A64E727F19CC5002A5652 /* Debug */,
+				FA9A64E827F19CC5002A5652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA9A64CA27F19CC3002A5652 /* Project object */;
+}
