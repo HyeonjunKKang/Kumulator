@@ -531,7 +531,7 @@ class MainViewController: UIViewController  {
             let PracticalSkillSnapshot = snapshot.childSnapshot(forPath: "PracticalSkill").childSnapshot(forPath: self.uid!)
             let DepthLiberalSnapshot = snapshot.childSnapshot(forPath: "DepthLiberal").childSnapshot(forPath: self.uid!)
             let UserSnapshot = snapshot.childSnapshot(forPath: "User").childSnapshot(forPath: self.uid!)
-            
+                //
             //전공필수
             let ComplusorySubjectItem = CompulsorySubjectSnapshot.value as? [String: Any] ?? [:]
             for index in ComplusorySubjectItem{
